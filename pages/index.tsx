@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import ContactForm from "../components/contact-form";
+
 export default function Home() {
   return (
     <div className="">
@@ -9,7 +11,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="">Main Content</main>
+      <main className="">
+        Main Content
+        <ContactForm />
+        <div className="p-4"></div>
+      </main>
     </div>
   );
 }
