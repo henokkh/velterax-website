@@ -8,14 +8,14 @@ import Testimonials from "../components/testimonials";
 
 export default function Home() {
   return (
-    <div className="font-opensans dark:bg-darkBlue dark:text-white">
+    <>
       <Head>
         <title>Velterax</title>
         <meta name="description" content="Velterax Company Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="">
+      <main className="bg-darkBlue font-opensans text-white">
         <Hero />
         <Features />
         <Jumbotron />
@@ -23,6 +23,6 @@ export default function Home() {
         <ContactForm />
         <div className="p-4"></div>
       </main>
-    </div>
+    </>
   );
 }

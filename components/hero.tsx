@@ -1,14 +1,21 @@
+import Image from "next/image";
 import React from "react";
 
 function Hero() {
   return (
     <section
       id="hero"
-      className="bg-curvy-light-mode bg-contain bg-bottom bg-no-repeat dark:bg-curvy-dark-mode"
+      className="bg-curvy-dark-mode bg-contain bg-bottom bg-no-repeat"
     >
       {/* Hero Container */}
       <div className="container mx-auto px-6 pb-52 text-center md:pt-20">
-        <img src="images/illustration-intro.png" alt="" className="mx-auto" />
+        <Image
+          src="/images/illustration-intro.png"
+          alt=""
+          className="mx-auto"
+          width="500"
+          height="500"
+        />
         <h1 className="mx-auto mb-10 mt-14 max-w-2xl text-3xl font-bold leading-normal md:text-4xl">
           All your files in one secure location, assessible anywhere.
         </h1>

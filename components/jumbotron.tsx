@@ -3,7 +3,7 @@ import React from "react";
 
 function Jumbotron() {
   return (
-    <section id="productive" className="bg-white dark:bg-darkBlue">
+    <section id="productive" className="bg-darkBlue">
       {/* Productive Container */}
       <div className="container mx-auto flex flex-col items-center px-6 pt-24 pb-32 md:flex-row md:space-x-16">
         {/* Image */}

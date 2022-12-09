@@ -3,13 +3,13 @@ import React from "react";
 
 function Testimonials() {
   return (
-    <section id="testimonials" className="bg-gray-50 dark:bg-darkBlue">
+    <section id="testimonials" className=" bg-darkBlue">
       {/* <!-- Testimonials Container --> */}
       <div className="container mx-auto px-6 pt-12 pb-80 md:pb-96">
         {/* <!-- Boxes Container --> */}
         <div className="relative flex w-full flex-col space-y-6 md:flex-row md:space-y-0 md:space-x-12">
           {/* <!-- Box 1 --> */}
-          <div className="flex flex-col space-y-6 rounded-lg bg-gray-100 p-10 dark:bg-darkBlue3 md:w-1/3">
+          <div className="flex flex-col space-y-6 rounded-lg  bg-darkBlue3 p-10 md:w-1/3">
             <p className="text-sm leading-5 md:text-lg">
               Fylo has improved our team productivity by an order of magnitude.
               Since making the switch our team has become a well-oiled
@@ -32,7 +32,7 @@ function Testimonials() {
           </div>
 
           {/* <!-- Box 2 --> */}
-          <div className="flex flex-col space-y-6 rounded-lg bg-gray-100 p-10 dark:bg-darkBlue3 md:w-1/3">
+          <div className="flex flex-col space-y-6 rounded-lg  bg-darkBlue3 p-10 md:w-1/3">
             <p className="text-sm leading-5 md:text-lg">
               Fylo has improved our team productivity by an order of magnitude.
               Since making the switch our team has become a well-oiled
@@ -57,7 +57,7 @@ function Testimonials() {
           </div>
 
           {/* <!-- Box 3 --> */}
-          <div className="flex flex-col space-y-6 rounded-lg bg-gray-100 p-10 dark:bg-darkBlue3 md:w-1/3">
+          <div className="flex flex-col space-y-6 rounded-lg  bg-darkBlue3 p-10 md:w-1/3">
             <p className="text-sm leading-5 md:text-lg">
               Fylo has improved our team productivity by an order of magnitude.
               Since making the switch our team has become a well-oiled
