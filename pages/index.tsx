@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import ContactForm from "../components/contact-form";
 import Hero from "../components/hero";
+import Testimonials from "../components/testimonials";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
 
       <main className="">
         <Hero />
-        Main Content
+        <Testimonials />
         <ContactForm />
         <div className="p-4"></div>
       </main>
