@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import ContactForm from "../components/contact-form";
+import Features from "../components/features";
 import Hero from "../components/hero";
 import Testimonials from "../components/testimonials";
 
@@ -15,6 +16,7 @@ export default function Home() {
 
       <main className="">
         <Hero />
+        <Features />
         <Testimonials />
         <ContactForm />
         <div className="p-4"></div>
