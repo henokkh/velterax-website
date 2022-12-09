@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import ContactForm from "../components/contact-form";
+import Hero from "../components/hero";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
 
       <main className="">
+        <Hero />
         Main Content
         <ContactForm />
         <div className="p-4"></div>
