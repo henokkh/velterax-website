@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Image from "next/image";
 import React from "react";
 
@@ -17,7 +18,7 @@ function Hero() {
           height="500"
         />
         <h1 className="mx-auto mb-10 mt-14 max-w-2xl text-3xl font-bold leading-normal md:text-4xl">
-        We Create a Magnificent Digital Project to Grow &nbsp; 
+        We Create a Magnificent Digital Project to Grow &nbsp;
         <span className="text-accentCyan">
         Your Bussines.
         </span>
