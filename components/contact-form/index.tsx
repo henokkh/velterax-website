@@ -9,8 +9,7 @@ function ContactForm() {
   );
   const [isSubmiting, setIsSubmiting] = useState(false);
 
-  const handleFormSubmit = async (e: FormEvent<HTMLFormElement>) => {
-    console.log(`handle submit called, e is ${e}`);
+  const handleFormSubmit = async () => {
     setIsSubmiting(true);
 
     try {
