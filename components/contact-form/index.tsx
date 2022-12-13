@@ -152,7 +152,6 @@ function ContactForm() {
               )}
             </div>
           </form>
-          <pre>{JSON.stringify(formik, null, 2)}</pre>
         </div>
       </section>
     </div>
