@@ -16,20 +16,8 @@ function Hero() {
           width="500"
           height="500"
         />
-<<<<<<< Updated upstream
-        <h1 className="mx-auto mb-10 mt-14 max-w-2xl text-3xl font-bold leading-normal md:text-4xl">
-          All your files in one secure location, assessible anywhere.
-        </h1>
-        <p className="mx-auto mb-10 max-w-sm text-sm md:max-w-xl md:text-lg">
-          Fylo stores all your most important files in one secure location.
-          Access them wherever you need, share and collaborate with friends
-          family, and co-workers.
-        </p>
-        <button className="w-52 rounded-full bg-accentCyan p-3 hover:scale-95">
-          Get Started
-        </button>
-=======
-        <h1 className="mx-auto mb-10 mt-14 max-w-2xl text-3xl font-bold  md:text-4xl">
+
+        <h1 className="mx-auto mb-10 mt-14 max-w-2xl text-3xl font-bold text-black  md:text-4xl">
           We Create a Magnificent Digital Project to Grow &nbsp;
           <span className="text-primaryAccent">Your Bussines.</span>
         </h1>
@@ -55,7 +43,6 @@ function Hero() {
             />
           </button>
         </a>
->>>>>>> Stashed changes
       </div>
     </section>
   );
