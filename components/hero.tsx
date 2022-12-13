@@ -35,7 +35,7 @@ function Hero() {
         </p>
         <a href="#contact">
           <button className="mx-auto flex w-52 items-center justify-center space-x-4 rounded-full bg-primaryAccent p-3 text-lg font-bold text-white hover:scale-105">
-            <span>Let's Talk</span>
+            <span>Let&apos;s Talk</span>
             <Image
               src="/images/conversation.svg"
               alt=""
