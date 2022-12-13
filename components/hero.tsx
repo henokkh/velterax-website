@@ -18,7 +18,7 @@ function Hero() {
           height="500"
         />
 
-        <h1 className="mx-auto mb-10 mt-14 max-w-2xl text-3xl font-bold  md:text-4xl">
+        <h1 className="mx-auto mb-10 mt-14 max-w-2xl text-3xl font-bold text-black  md:text-4xl">
           We Create a Magnificent Digital Project to Grow &nbsp;
           <span className="text-primaryAccent">Your Bussines.</span>
         </h1>
