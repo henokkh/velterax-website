@@ -3,9 +3,9 @@ import React from "react";
 
 function Features() {
   return (
-    <section id="features" className="bg-darkBlue1 pt-12">
+    <section id="features" className="bg-darkBg pt-24 pb-48 text-white">
       {/*  Features Container */}
-      <div className="container mx-auto px-6 pb-32">
+      <div className="container mx-auto px-6">
         {/*  First Row */}
         <div className="flex flex-col space-y-24 text-center md:flex-row md:space-y-0">
           {/*  Item 1 */}

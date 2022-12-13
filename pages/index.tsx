@@ -12,10 +12,10 @@ export default function Home() {
       <Head>
         <title>Velterax</title>
         <meta name="description" content="Velterax Company Website" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <main className="bg-darkBlue font-opensans text-white">
+      <main className="bg-lightBg font-opensans text-darkText">
         <Hero />
         <Features />
         <Jumbotron />
