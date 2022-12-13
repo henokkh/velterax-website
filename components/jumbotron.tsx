@@ -3,9 +3,9 @@ import React from "react";
 
 function Jumbotron() {
   return (
-    <section id="productive" className="bg-darkBlue">
+    <section id="productive">
       {/* Productive Container */}
-      <div className="container mx-auto flex flex-col items-center px-6 pt-24 pb-32 md:flex-row md:space-x-16">
+      <div className="container mx-auto flex flex-col items-center py-44 px-6 md:flex-row md:space-x-16">
         {/* Image */}
         <div className="md:w-1/2">
           <Image
@@ -23,8 +23,8 @@ function Jumbotron() {
               Stay productive, wherever you are
             </h4>
             <p className="text-md md:text-lg">
-              Never let location be an issue when accessing your files. Fylo has
-              you covered for all of your file storage needs.
+              Never let location be an issue when accessing your files. Velterax
+              has you covered for all of your file storage needs.
             </p>
 
             <p className="text-md md:text-lg">
@@ -35,14 +35,17 @@ function Jumbotron() {
 
           {/* Link */}
           <div className="mt-4 block">
-            <a href="#" className="border-b border-accentCyan text-accentCyan">
-              See how Flyo works
+            <a
+              href="#"
+              className="flex items-center justify-center space-x-4 border-b border-primaryAccent text-primaryAccent hover:scale-105 "
+            >
+              <span>See how Velterax works</span>
               <Image
                 src="/images/icon-arrow.svg"
                 alt=""
                 className="inline pb-2"
-                width="10"
-                height="10"
+                width="20"
+                height="20"
               />
             </a>
           </div>

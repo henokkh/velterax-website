@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <footer className="bg-darkBlue2 text-white">
+    <footer className="bg-darkBg text-white">
       <div className="container mx-auto px-5 pt-12 pb-10">
         {/* Flex Container For All Items */}
         <div className="flex flex-col justify-between space-y-24 md:flex-row md:space-y-0">
@@ -30,7 +30,7 @@ function Footer() {
                   height={20}
                 />
               </div>
-              <div>example@fylo.com</div>
+              <div>example@Velterax.com</div>
             </div>
           </div>
 
@@ -54,9 +54,9 @@ function Footer() {
             <div>
               <a href="#">
                 <Image
-                  src="/images/facebook.svg"
+                  src="/images/social-media-icons/facebook.svg"
                   alt=""
-                  className="ficon rounded-full bg-darkBlue p-2"
+                  className="ficon bg-darkBlue rounded-full p-2"
                   width={40}
                   height={40}
                 />
@@ -65,9 +65,9 @@ function Footer() {
             <div>
               <a href="#">
                 <Image
-                  src="/images/twitter.svg"
+                  src="/images/social-media-icons/twitter.svg"
                   alt=""
-                  className="ficon rounded-full bg-darkBlue p-2"
+                  className="ficon bg-darkBlue rounded-full p-2"
                   width={40}
                   height={40}
                 />
@@ -76,9 +76,9 @@ function Footer() {
             <div>
               <a href="#">
                 <Image
-                  src="/images/instagram.svg"
+                  src="/images/social-media-icons/instagram.svg"
                   alt=""
-                  className="ficon rounded-full bg-darkBlue p-2"
+                  className="ficon bg-darkBlue rounded-full p-2"
                   width={40}
                   height={40}
                 />
