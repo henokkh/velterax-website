@@ -1,0 +1,36 @@
+[
+  {
+    "id": "01",
+    "iconUrl": "/images/icon-access-anywhere.svg",
+    "title": "Front End Web Development",
+    "body": "We build unique front end applications using Next.js, React.js, TailwindCSS, "
+  },
+
+  {
+    "id": "02",
+    "iconUrl": "/images/icon-security.svg",
+    "title": "Back End Web Development",
+    "body": "We build robust back end applications with REST of GraphQL APIs that can be consumed by a web application or mobile application. Some of the tools we use include Node.js, TypeScript, Express.js, Prisma, Next.js and more..."
+  },
+
+  {
+    "id": "03",
+    "iconUrl": "/images/icon-collaboration.svg",
+    "title": "Databases",
+    "body": "We use MongoDB Atlas or AWS to host our databases, and we make sure that you never lose any data"
+  },
+
+  {
+    "id": "04",
+    "iconUrl": "/images/icon-any-file.svg",
+    "title": "CI/CD",
+    "body": "We follow the latest trends in modern web development to stay productive and deliver projects on a timely manner."
+  },
+
+  {
+    "id": "05",
+    "iconUrl": "/images/icon-any-file.svg",
+    "title": "Deployment and Monitoring",
+    "body": "Our services include the full life-cycle of application development. We use AWS, Netlify, Vercel, and many other platforms to host your web applications and take care of monitoring, logging and incidence response. "
+  }
+]

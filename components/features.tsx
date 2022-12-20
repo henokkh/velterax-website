@@ -1,88 +1,23 @@
 import Image from "next/image";
-import React from "react";
+
+import featuresData from "./features.json";
 
 function Features() {
   return (
     <section id="features" className="bg-darkBg pt-24 pb-48 text-white">
-      {/*  Features Container */}
-      <div className="container mx-auto px-6">
-        {/*  First Row */}
-        <div className="flex flex-col space-y-24 text-center md:flex-row md:space-y-0">
-          {/*  Item 1 */}
-          <div className="flex flex-col items-center space-y-2 md:w-1/2">
+      <div className="container mx-auto flex flex-col  justify-center gap-12 px-6 text-center md:flex-row md:flex-wrap">
+        {featuresData.map((feature) => (
+          <div
+            key={feature.id}
+            className="mx-auto flex w-full flex-col items-center space-y-2 sm:min-w-[200px] sm:max-w-[400px]"
+          >
             <div className="mb-6 flex h-24 items-center justify-center">
-              <Image
-                src="/images/icon-access-anywhere.svg"
-                alt=""
-                width="80"
-                height="80"
-              />
+              <Image src={feature.iconUrl} alt="" width="80" height="80" />
             </div>
-            <h3 className="text-xl font-bold">
-              Access your file from anywhere
-            </h3>
-            <p className="max-w-md">
-              The ability to use a smartphone, tablet, or computer to access
-              your account means your files follow you everywhere.
-            </p>
+            <h3 className="text-xl font-bold">{feature.title}</h3>
+            <p className="max-w-md">{feature.body}</p>
           </div>
-          {/*  Item 2 */}
-          <div className="flex flex-col items-center space-y-2 md:w-1/2">
-            <div className="mb-6 flex h-24 items-center justify-center">
-              <Image
-                src="/images/icon-security.svg"
-                alt=""
-                width="80"
-                height="80"
-              />
-            </div>
-            <h3 className="text-xl font-bold">Security you can trust</h3>
-            <p className="max-w-md">
-              2-factor authentication and user-controlled encryption are just a
-              couple of the security features we allow to help secure your
-              files.
-            </p>
-          </div>
-        </div>
-
-        {/*  Second Row */}
-        <div className="mt-28 flex flex-col space-y-24 text-center md:flex-row md:space-y-0">
-          {/*  Item 3 */}
-          <div className="flex flex-col items-center space-y-2 md:w-1/2">
-            <div className="mb-6 flex h-24 items-center justify-center">
-              <Image
-                src="/images/icon-collaboration.svg"
-                alt=""
-                width="80"
-                height="80"
-              />
-            </div>
-            <h3 className="text-xl font-bold">
-              Access your file from anywhere
-            </h3>
-            <p className="max-w-md">
-              The ability to use a smartphone, tablet, or computer to access
-              your account means your files follow you everywhere.
-            </p>
-          </div>
-          {/*  Item 4 */}
-          <div className="flex flex-col items-center space-y-2 md:w-1/2">
-            <div className="mb-6 flex h-24 items-center justify-center">
-              <Image
-                src="/images/icon-any-file.svg"
-                alt=""
-                width="80"
-                height="80"
-              />
-            </div>
-            <h3 className="text-xl font-bold">Security you can trust</h3>
-            <p className="max-w-md">
-              2-factor authentication and user-controlled encryption are just a
-              couple of the security features we allow to help secure your
-              files.
-            </p>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   );
